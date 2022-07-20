@@ -7,7 +7,11 @@ namespace leetcode_csharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var s = "A man, a plan, a canal: Panama";
+            s = "aa";
+
+            var vp = new ValidPalindrome();
+            Console.WriteLine(vp.IsPalindrome(s));
         }
     }
 }
